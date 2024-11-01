@@ -1,0 +1,651 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Tuner 0.9.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-24 16:10-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: MrPete <WPTuner@ICTA.net>\n"
+"Language-Team: Lecactus <lecactus@lecactus.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: e:\\tech\\cvs\\wpplugins\\\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: wptuner-trunk\\trunk\n"
+
+#: wptuner-trunk\trunk/wptunerdebug.php:10
+msgid "wpTuner Diagnostics"
+msgstr "Диагностика wpTuner"
+
+#: wptuner-trunk\trunk/wptunerdebug.php:11
+msgid "Debug level: "
+msgstr "Уровень отладки: "
+
+#: wptuner-trunk\trunk/wptunerdebug.php:12
+msgid "User level: "
+msgstr "Уровень пользователя: "
+
+#: wptuner-trunk\trunk/wptunerdebug.php:13
+msgid "WP version: "
+msgstr "Версия WP: "
+
+#: wptuner-trunk\trunk/wptunerdebug.php:14
+msgid "PHP version: "
+msgstr "Версия PHP: "
+
+#: wptuner-trunk\trunk/wptunerdebug.php:15
+msgid "MySQL version: "
+msgstr "Версия MySQL: "
+
+#: wptuner-trunk\trunk/wptunerdebug.php:16
+msgid "WP theme: "
+msgstr "Тема WP: "
+
+#: wptuner-trunk\trunk/wptunerdebug.php:20
+msgid "WP plugins: "
+msgstr "Плагины WP: "
+
+#: wptuner-trunk\trunk/wptunerdebug.php:53
+msgid "wpTuner Object: "
+msgstr "Объект wpTuner:"
+
+#: wptuner-trunk\trunk/wptunerdebug.php:58
+msgid "PHP Info: "
+msgstr "Информация PHP:"
+
+#: wptuner-trunk\trunk/wptunersetup.php:72
+msgid "Minimal (Admin) Footer"
+msgstr "Минимально (администратор) в подвале"
+
+#: wptuner-trunk\trunk/wptunersetup.php:73
+msgid "Errors and Warnings"
+msgstr "Ошибки и предупреждения"
+
+#: wptuner-trunk\trunk/wptunersetup.php:74
+msgid "Analyze Timing"
+msgstr "Анализировать время"
+
+#: wptuner-trunk\trunk/wptunersetup.php:75
+msgid "Find Slow Elements"
+msgstr "Поиск медленных элементов"
+
+#: wptuner-trunk\trunk/wptunersetup.php:76
+msgid "Developer Basic"
+msgstr "Основная для разработчиков"
+
+#: wptuner-trunk\trunk/wptunersetup.php:77
+msgid "Show Everything"
+msgstr "Показывать всё"
+
+#: wptuner-trunk\trunk/wptunersetup.php:362
+msgid "WP Tuner options successfully updated."
+msgstr "Настройки WP Tuner успешно обновлены."
+
+#: wptuner-trunk\trunk/wptunersetup.php:373
+msgid "WP Tuner options successfully reset to default values."
+msgstr "Настройки WP Tuner успешно восстановлены к значениям «по умолчанию»."
+
+#: wptuner-trunk\trunk/wptunersetup.php:389
+#, php-format
+msgid "WP Tuner options successfully preset to <em>%s</em>."
+msgstr "Настройки WP Tuner успешно изменены на предустановку <em>%s</em>."
+
+#: wptuner-trunk\trunk/wptunersetup.php:402
+msgid "<p>At minimum, WP Tuner does a basic performance analysis: time, database use, memory use and server load.</p><p><em>Note:</em> If your pages take a long time to generate, yet the server load is <em>low</em>, something <em>else</em> is slowing down your site! A plugin may be trying to get data from a slow or missing site, or your web host may by slowed by other sites running on the same CPU."
+msgstr "<p>Как минимум, WP Tuner делает основной анализ производительности: время, использование базы данных, использование памяти и нагрузка сервера.</p><p><em>Примечание:</em> Если ваши страницы долго генерируются, но нагрузка на сервер <em>низкая</em>, значит что то <em>еще</em> тормозит ваш сайт! Плагин может получать данные с медленного или неработающего сайта, или ваш хостинг замедляется другими сайтами, запущенными на том же CPU."
+
+#: wptuner-trunk\trunk/wptunersetup.php:405
+msgid "Reset to defaults"
+msgstr "Восстановить значения по умолчанию"
+
+#: wptuner-trunk\trunk/wptunersetup.php:406
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: wptuner-trunk\trunk/wptunersetup.php:441
+msgid "<h3>Presets</h3>"
+msgstr "<h3>Предустановки</h3>"
+
+#: wptuner-trunk\trunk/wptunersetup.php:454
+msgid "<h3>Custom Settings</h3>"
+msgstr "<h3>Произвольные настройки</h3>"
+
+#: wptuner-trunk\trunk/wptunersetup.php:458
+msgid "View current WP Tuner output"
+msgstr "Просмотреть текущий результат вывода данных WP Tuner"
+
+#: wptuner-trunk\trunk/wptunersetup.php:462
+msgid "Install / Uninstall"
+msgstr "Инсталляция / Деинсталляция"
+
+#: wptuner-trunk\trunk/wptunersetup.php:471
+msgid "WP Tuner is correctly installed.<br/>"
+msgstr "WP Tuner установлен корректно.<br/>"
+
+#: wptuner-trunk\trunk/wptunersetup.php:478
+msgid "Uninstall (remove all settings) when plugin is deactivated."
+msgstr "Деинсталляция (удаляет все настройки) когда плагин деактивируется."
+
+#: wptuner-trunk\trunk/wptunersetup.php:478
+#: wptuner-trunk\trunk/wptunersetup.php:580
+#: wptuner-trunk\trunk/wptunersetup.php:586
+msgid "Not affected by Presets"
+msgstr "Не затрагивает предустановки"
+
+#: wptuner-trunk\trunk/wptunersetup.php:482
+msgid "Debug Level (normally 0, ask MrPete for other values if wpTuner is misbehaving)"
+msgstr "Уровень отладки (обычно 0, спросите MrPete о других значениях, если wpTuner не работает)"
+
+#: wptuner-trunk\trunk/wptunersetup.php:491
+msgid "<em>Note:</em> Your web environment is unable to provide me with the following information:"
+msgstr "<em>Примечание:</em> Ваше веб-окружение не в состоянии предоставить мне следующую информацию:"
+
+#: wptuner-trunk\trunk/wptunersetup.php:493
+msgid "<em>Server load (CPU time):</em> probably a windows server?"
+msgstr "<em>Загрузка сервера (время CPU):</em> возможно windows server?"
+
+#: wptuner-trunk\trunk/wptunersetup.php:495
+msgid "<em>Memory used:</em> probably running older PHP (before 5.2) on a system with no memory limit configured."
+msgstr "<em>Использовано памяти:</em> возможно запущена старая версия PHP (до 5.2) на системе с неотконфигурированным лимитом памяти."
+
+#: wptuner-trunk\trunk/wptunersetup.php:500
+#, php-format
+msgid "<em>Note:</em> Because you are running WP version %s, WP Tuner has enhanced the following built-in WordPress function(s):"
+msgstr "<em>Примечание:</em> Т.к. вы используете WP версии %s, WP Tuner расширен следующими встроенными в WordPress функциями:"
+
+#: wptuner-trunk\trunk/wptunersetup.php:502
+msgid "<em>current_filter()</em> function emulation, so filters can be tracked (WP versions before 2.5)"
+msgstr "Эмуляция функции <em>current_filter()</em>, поэтому может отслеживаться (WP версии до 2.5)"
+
+#: wptuner-trunk\trunk/wptunersetup.php:505
+msgid "<em>DB query()</em> function, so performance can be tracked (WP versions 2.0.6 to 2.3.2)"
+msgstr "Функция <em>DB query()</em>, может отслеживать производительность (WP версии с 2.0.6 до 2.3.2)"
+
+#: wptuner-trunk\trunk/wptunersetup.php:507
+msgid "<em>DB get_caller()</em> function, so specific DB access can be tracked (WP versions 2.0.6 to present)"
+msgstr "Функция <em>DB get_caller()</em>, может отслеживать определенный доступ к DB (WP версии с 2.0.6 до последней)"
+
+#: wptuner-trunk\trunk/wptunersetup.php:513
+msgid "Configuration Incomplete. Number of errors: "
+msgstr "Конфигурирование не завершено. Количество ошибок: "
+
+#: wptuner-trunk\trunk/wptunersetup.php:514
+msgid "Fix issues in the order presented. One issue may be the actual cause of all errors. Reload this page two+ times after making any change. If the problem is not resolved, deactivate and reactivate again."
+msgstr "Исправьте проблемы в указанном порядке. Одна проблема может быть причиной всех ошибок. Перезагрузите страницу два или более раз после внесения каких-либо изменений. Если проблема не будет решена, деактивируйте и активируйте плагин повторно."
+
+#: wptuner-trunk\trunk/wptunersetup.php:519
+#, fuzzy, php-format
+msgid "<li>wp-config.php can't be read. Permissions are %s, and should be at least 0644. Check your wordpress folder permissions as well.</li>\n"
+msgstr "<li>wp-config.php не может быть прочитан. «Права доступа» %s, а должны быть как минимум 0644.</li>\n"
+
+#: wptuner-trunk\trunk/wptunersetup.php:524
+msgid "<li>wp-config.php contains WP Tuner markers, but they are <i>after</i> the ABSPATH definition. Please clean up the file and reinstall WP Tuner.</li>\n"
+msgstr "<li>wp-config.php содержит маркеры WP Tuner, но они <i>после</i> определения ABSPATH. Пожалуйста, очистите весь левый код из конфига и переустановите WP Tuner.</li>\n"
+
+#: wptuner-trunk\trunk/wptunersetup.php:529
+#, fuzzy, php-format
+msgid "<li>wp-config.php can't be written. Permissions are %s, and should be at least 0644. Check your wordpress folder permissions as well.</li>\n"
+msgstr "<li>wp-config.php не может быть сохранен. «Права доступа» %s, а должны быть как минимум 0644.</li>\n"
+
+#: wptuner-trunk\trunk/wptunersetup.php:534
+#, php-format
+msgid "<li>wp-config.php can't be backed up. Your wordpress directory (%s) permissions are %s, and should be at least 0755.</li>\n"
+msgstr "<li>wp-config.php не может быть резервирован. «Права доступа» на вашу директорию с WordPress (%s)  %s, а должны быть минимум 0755.</li>\n"
+
+#: wptuner-trunk\trunk/wptunersetup.php:539
+msgid "<li>No data can be written to wp-config.php -- Please check disk space.</li>\n"
+msgstr "<li>Невозможно записать данные в wp-config.php -- Пожалуйста, проверьте место на диске.</li>\n"
+
+#: wptuner-trunk\trunk/wptunersetup.php:544
+msgid ""
+"<li>If Auto-config remains broken, please find a way to add the following code after your DB_* definitions in wp-config.php:<br/>\n"
+"\t<pre style='padding:3px;line-height:11px;background-color:#eee'>\n"
+"//-WP Tuner Plugin by MrPete------------\n"
+"//--------------------------------------\n"
+"$wpTunerStart = microtime();\t\t// get start time as early as we can\n"
+"if ( function_exists( 'getrusage' ) ) { $wpTunerStartCPU = getrusage(); }\n"
+"@include_once(dirname(__FILE__).'/wp-content/plugins/wptuner/wptunertop.php'); // fire up WPTuner\n"
+"//--------------------------------------\n"
+"//-END WP Tuner Plugin------------------\n"
+"</pre></li>\n"
+msgstr ""
+"<li>Если автоматическая конфигурация не хочет работать, пожалуйста, найти способ добавить следующий код после Вашего DB_* definitions в wp-config.php:<br/>\n"
+"\t<pre style='padding:3px;line-height:11px;background-color:#eee'>\n"
+"//-WP Tuner Plugin by MrPete------------\n"
+"//--------------------------------------\n"
+"$wpTunerStart = microtime();\t\t// get start time as early as we can\n"
+"if ( function_exists( 'getrusage' ) ) { $wpTunerStartCPU = getrusage(); }\n"
+"@include_once(dirname(__FILE__).'/wp-content/plugins/wptuner/wptunertop.php'); // fire up WPTuner\n"
+"//--------------------------------------\n"
+"//-END WP Tuner Plugin------------------\n"
+"</pre></li>\n"
+
+#: wptuner-trunk\trunk/wptunersetup.php:557
+msgid "<li>WP-Config code badly placed: please check your wp-config.php file. wptunertop.php is loaded <em>too early</em>. The DB_* constants must be defined before wptunertop is included.</li>\n"
+msgstr "<li>WP-Config код размещен некорректно: пожалуйста, проверьте ваш файл wp-config.php. wptunertop.php загружен <em>слишком рано</em>. Константы DB_* должны быть определены ДО включения wptunertop.</li>\n"
+
+#: wptuner-trunk\trunk/wptunersetup.php:560
+msgid "<li>Technical issue: Configuration appears correct, yet WP Tuner could not be loaded before wp-db.php, so SAVEQUERIES is not defined. WP Tuner is unable to analyze your database use. If you need further help, please contact MrPete.</li>\n"
+msgstr "<li>Технический вопрос: Конфигурация представлена правильно, но WP Tuner не может быть загружен до wp-db.php, поэтому SAVEQUERIES не определено. WP Tuner не может проанализировать использование вашей базы данных. Если вам нужна дополнительная помощь, свяжитесь с MrPete.</li>\n"
+
+#: wptuner-trunk\trunk/wptunersetup.php:576
+msgid "Slow Query Threshold"
+msgstr "Порог медленных запросов"
+
+#: wptuner-trunk\trunk/wptunersetup.php:578
+#, php-format
+msgid "Highlight anything that takes longer than %s seconds."
+msgstr "Выделить все что занимает больше времени, чем %s секунд."
+
+#: wptuner-trunk\trunk/wptunersetup.php:581
+msgid "<small>(Normally, 0.5 seconds is a good setting. If your whole site is slow, set a higher number.)</small>"
+msgstr "<small>(Обычно, 0.5 секунды это хорошая настройка. Если ваш сайт медленнее в целом, установите большее значение.)</small>"
+
+#: wptuner-trunk\trunk/wptunersetup.php:584
+#: wptuner-trunk\trunk/wptunershow.php:524
+#: wptuner-trunk\trunk/wptunershow.php:552
+#: wptuner-trunk\trunk/wptunershow.php:762
+msgid "Ignore Query Contents"
+msgstr "Игнорировать содержание запроса"
+
+#: wptuner-trunk\trunk/wptunersetup.php:585
+#: wptuner-trunk\trunk/wptunersetup.php:594
+#: wptuner-trunk\trunk/wptunersetup.php:601
+msgid "No."
+msgstr "Нет."
+
+#: wptuner-trunk\trunk/wptunersetup.php:586
+msgid "Yes, cut WP Tuner overhead to bare minimum."
+msgstr "Да, сократить накладные расходны WP tuner до минимума"
+
+#: wptuner-trunk\trunk/wptunersetup.php:586
+msgid "Disables query optimization hints, per-table stats, and invalid query detection. Slow queries will still be seen."
+msgstr "Отключает оптимизацию запросов, статистику по таблицам и обнаружение некорректных запросов. Медленные запросы будут показаны."
+
+#: wptuner-trunk\trunk/wptunersetup.php:590
+#: wptuner-trunk\trunk/wptunershow.php:148
+msgid "Performance Analysis"
+msgstr "Анализ производительности"
+
+#: wptuner-trunk\trunk/wptunersetup.php:590
+msgid "This section summarizes: overall WordPress performance, per-plugin DB performance, and per-table performance. Helps find plugins and tables that need optimization or better indexes."
+msgstr "В этой секции кратко: общая производительность WordPress, производительность каждого плагина (DB), и производительность каждой таблицы. Помогает найти плагины и таблицы, которые нуждаются в оптимизации или повышения индексов."
+
+#: wptuner-trunk\trunk/wptunersetup.php:593
+msgid "Show Performance Analysis"
+msgstr "Показывать анализ производительности"
+
+#: wptuner-trunk\trunk/wptunersetup.php:595
+msgid "Yes, display time and database performance"
+msgstr "Да, показывать время и производительность базы данных"
+
+#: wptuner-trunk\trunk/wptunersetup.php:597
+#: wptuner-trunk\trunk/wptunershow.php:149
+msgid "SQL Query Analysis"
+msgstr "Анализ SQL запросов"
+
+#: wptuner-trunk\trunk/wptunersetup.php:597
+msgid "This section shows each query: what is it, how quickly it runs, detailed explanation usable for optimization. From these you may learn details of speeding up specific database queries. <em>This is mostly of use to developers.</em>"
+msgstr "Эта секция показывает каждый запрос: что это, как быстро запускается, подробное объяснение, используемое для оптимизации. Из них вы можете узнать подробности ускорения конкретных запросов базы данных. <em>Обычно это используется разработчиками.</em>"
+
+#: wptuner-trunk\trunk/wptunersetup.php:600
+msgid "Show SQL Query Analysis"
+msgstr "Показывать анализ SQL запросов"
+
+#: wptuner-trunk\trunk/wptunersetup.php:602
+msgid "Yes, display query analysis"
+msgstr "Да, показывать анализ запросов"
+
+#: wptuner-trunk\trunk/wptunersetup.php:604
+msgid "Show All Queries"
+msgstr "Показать все запросы"
+
+#: wptuner-trunk\trunk/wptunersetup.php:605
+msgid "No, only display slow or invalid database queries"
+msgstr "Нет, показать только медленные или некорректные запросы к базе данных"
+
+#: wptuner-trunk\trunk/wptunersetup.php:606
+msgid "Yes, always show every query"
+msgstr "Да, показать все запросы"
+
+#: wptuner-trunk\trunk/wptunersetup.php:606
+msgid "Typically used by developers to understand database use in more detail."
+msgstr "Обычно используется разработчиками чтобы понять более детально использование базы данных."
+
+#: wptuner-trunk\trunk/wptunersetup.php:608
+msgid "Explain Each Query, With Optimization Hints"
+msgstr "Объясните каждого запроса, с подсказками для оптимизации"
+
+#: wptuner-trunk\trunk/wptunersetup.php:609
+msgid "No. Show query text, but no detailed analysis"
+msgstr "Нет, показывать текст запроса, но без детального анализа"
+
+#: wptuner-trunk\trunk/wptunersetup.php:610
+msgid "Yes, show which indexes are used and more"
+msgstr "Да, показыать какие индексы используются и больше"
+
+#: wptuner-trunk\trunk/wptunersetup.php:610
+msgid "This helps when trying to speed up a slow query. <a href=\"http://dev.mysql.com/doc/refman/5.0/en/using-explain.html\">The MySQL Site</a> provides helpful hints on using the detail you see."
+msgstr "Это помогает при попытке ускорить медленный запрос. <a href=\"http://dev.mysql.com/doc/refman/5.0/en/using-explain.html\">Сайт MySQL</a> дает полезные советы по использованию деталей, что вы видите."
+
+#: wptuner-trunk\trunk/wptunersetup.php:612
+msgid "\"Charge\" queries to Plugins or Core?"
+msgstr "\"Charge\" запросы для плагинов или ядра?"
+
+#: wptuner-trunk\trunk/wptunersetup.php:613
+msgid "<em>Core:</em> when plugins trigger DB queries through core functions, allocate the time used to Core."
+msgstr "<em>Ядро:</em> когда плагины провоцируют запросы к DB через функции ядра, выделить время испольемое ядром."
+
+#: wptuner-trunk\trunk/wptunersetup.php:614
+msgid "Developers sometimes find this setting helpful: it always records the exact file/line where queries are made."
+msgstr "Разработчики иногда находят этот параметр полезным: он всегда записывает точно файл/строку где делается запрос."
+
+#: wptuner-trunk\trunk/wptunersetup.php:615
+msgid "<em>Plugins:</em> time is allocated to the plugin for any DB query it triggers, even if indirectly."
+msgstr "<em>Плагины:</em> время выделяемое на плагин при любом запросе к DB, который он провоцирует, даже косвенно."
+
+#: wptuner-trunk\trunk/wptunersetup.php:616
+msgid "This is the best way to determine overhead cost of a plugin."
+msgstr "Это самый лучший способ для определения ресурсов плагином."
+
+#: wptuner-trunk\trunk/wptunersetup.php:618
+#: wptuner-trunk\trunk/wptunershow.php:146
+msgid "Debug Log"
+msgstr "Отладочный лог"
+
+#: wptuner-trunk\trunk/wptunersetup.php:618
+msgid "Displays WP Tuner error messages. Also available for developer use: <code>wpTuneLog('text');</code> will capture anything you like, and tie it to file and line number."
+msgstr "Показывает сообщения об ошибках WP Tuner. Также доступно для использования разработчиками: <code>wpTuneLog('text');</code> захватывает все что вам нравится, и привязывается к номеру строки и файлу."
+
+#: wptuner-trunk\trunk/wptunersetup.php:621
+msgid "Show Debug Log"
+msgstr "Показывать отладочный лог"
+
+#: wptuner-trunk\trunk/wptunersetup.php:622
+msgid "No"
+msgstr "Нет"
+
+#: wptuner-trunk\trunk/wptunersetup.php:623
+msgid "Yes, display WP Tuner log entries"
+msgstr "Да, показывать записи лога WP Tuner"
+
+#: wptuner-trunk\trunk/wptunersetup.php:632
+#, php-format
+msgid ""
+"<em><b>This plugin is only visible to site admins.</b></em><br/>\n"
+"Like it? Tell a friend. Hate it? Tell %sMr Pete%s. Did it help? Tell %syour story%s. Love it? Help fill the %sTip Jar%s. Your generosity helps Mr Pete and his team meet people's needs around the world!"
+msgstr ""
+"<em><b>Этот плагин виден ТОЛЬКО администраторам.</b></em><br/>\n"
+"Нравится? Расскажите другу. Не нравится? Расскажите %sMr Pete%s. Он вам помог? Расскажите %sвашу историю%s. Нравится? помогите пополнить %sTip Jar%s. Your generosity helps Mr Pete and his team meet people's needs around the world!"
+
+#: wptuner-trunk\trunk/wptunersetup.php:637
+msgid "Translator Name"
+msgstr "Кактусу"
+
+#: wptuner-trunk\trunk/wptunersetup.php:637
+#, php-format
+msgid "Credit: MrPete is grateful to <a href=\"%s\">%s</a> for this %s translation!"
+msgstr "Авторы: MrPete благодарен <a href=\"%s\">%s</a> за %s перевод!"
+
+#: wptuner-trunk\trunk/wptunersetup.php:637
+msgid "http://Translator.Website"
+msgstr "http://lecactus.ru"
+
+#: wptuner-trunk\trunk/wptunersetup.php:637
+msgid "Translator Language"
+msgstr "Русский"
+
+#: wptuner-trunk\trunk/wptunershow.php:59
+#: wptuner-trunk\trunk/wptunershow.php:591
+#: wptuner-trunk\trunk/wptunertop.php:81
+msgid "Stop"
+msgstr "Стоп"
+
+#: wptuner-trunk\trunk/wptunershow.php:115
+msgid "WP Tuner"
+msgstr "WP Tuner"
+
+#: wptuner-trunk\trunk/wptunershow.php:117
+#, php-format
+msgid ""
+"<em><b>This plugin is only visible to site admins.</b></em>\n"
+"(Update settings %shere%s; Visit %sMrPete at ICTA%s for bouquets/brickbats/help. Love it? Fill the %sTip Jar%s.)<br /> \n"
+"Analysed in %.3f seconds. "
+msgstr ""
+"<em><b>Этот плагин виден ТОЛЬКО администраторам.</b></em>\n"
+"(Обновите настройки %sздесь%s; Посетите сайт %sMrPete at ICTA%s for bouquets/brickbats/help. Нравится? Заполните %sTip Jar%s.)<br /> \n"
+"Пронализировано за %.3f секунд. "
+
+#: wptuner-trunk\trunk/wptunershow.php:135
+msgid "Display of detailed analysis is disabled."
+msgstr "Показ детального анализа отключен."
+
+#: wptuner-trunk\trunk/wptunershow.php:142
+msgid "WP Tuner is not correctly configured. Please go to the Settings page using the link above, and set it up correctly."
+msgstr "WP Tuner настроен некорректно. Пожалуйста, перейдите на страницу «НАСТРОЙКИ», используя ссылку выше, и настройте его корректно."
+
+#: wptuner-trunk\trunk/wptunershow.php:276
+msgid "<b>wpTuner Report</b><br/>Please report to MrPete.  WP Tuner could not match this unusual (or possibly invalid) database query. (WP Tuner and your system are still working ok):<br/>"
+msgstr "<b>Отчет wpTuner</b><br/>Пожалуйста сообщите MrPete. wpTuner не может сопоставить этот комплексный (или возможно некорректный) запрос к базе даных. (WP Tuner и ваша система работают нормально):<br/>"
+
+#: wptuner-trunk\trunk/wptunershow.php:290
+#: wptuner-trunk\trunk/wptunershow.php:291
+msgid "plugin"
+msgstr "плагин"
+
+#: wptuner-trunk\trunk/wptunershow.php:292
+msgid "theme"
+msgstr "тема"
+
+#: wptuner-trunk\trunk/wptunershow.php:293
+#: wptuner-trunk\trunk/wptunershow.php:294
+#: wptuner-trunk\trunk/wptunershow.php:296
+#: wptuner-trunk\trunk/wptunershow.php:300
+msgid "-Core-"
+msgstr "-Ядро-"
+
+#: wptuner-trunk\trunk/wptunershow.php:300
+msgid "(Other)"
+msgstr "(другое)"
+
+#: wptuner-trunk\trunk/wptunershow.php:304
+msgid "(DB Constructor/Startup)"
+msgstr "(DB Конструктор / запуск)"
+
+#: wptuner-trunk\trunk/wptunershow.php:406
+msgid "WP Tuner Report: (please report) I could find no queries at all!!??"
+msgstr "Отчет WP Tuner: (пожалуйста сообщите) I could find no queries at all!!??"
+
+#: wptuner-trunk\trunk/wptunershow.php:446
+#, php-format
+msgid " %.3f cpu sec (%d%% load%s, %.3f startup). Clock: "
+msgstr " %.3f секунды cpu (%d%% загрузка%s, %.3f запуск). Время: "
+
+#: wptuner-trunk\trunk/wptunershow.php:458
+#, php-format
+msgid " Memory: %.1fMB"
+msgstr " Память: %.1fMB"
+
+#: wptuner-trunk\trunk/wptunershow.php:465
+#, php-format
+msgid "%d defective"
+msgstr "%d дефективных"
+
+#: wptuner-trunk\trunk/wptunershow.php:467
+msgid "none defective"
+msgstr "нет дефективных"
+
+#: wptuner-trunk\trunk/wptunershow.php:471
+#, php-format
+msgid "Render Time:%s %.3f sec (%.1f%% for queries). DB queries: %d,%s none &gt; %.3f sec.%s"
+msgstr "Время рендеринга:%s %.3f секунды (%.1f%% на запросы). Запросы БД: %d,%s нет &gt; %.3f секунды.%s"
+
+#: wptuner-trunk\trunk/wptunershow.php:473
+#, php-format
+msgid "Render Time:%s %.3f sec (%.1f%% for queries). DB queries: %d,%s %d slow (&gt; %.3f sec)%s"
+msgstr "Время рендеринга:%s %.3f секунды (%.1f%% на запросы). Запросы БД: %d,%s %d медленных (&gt; %.3f секунды)%s"
+
+#: wptuner-trunk\trunk/wptunershow.php:491
+#, php-format
+msgid "%d Valid queries. None slow, none invalid. <em>Display of normal queries is disabled.</em>"
+msgstr "%d корректных запросов. Нет медленных, нет некорректных. <em>Показ нормальных запросов отключен.</em>"
+
+#: wptuner-trunk\trunk/wptunershow.php:493
+msgid "Queries triggered by plugins calling Core functions are marked (file, line) at: "
+msgstr "Запросы, вызванные плагинами вызывают функции Ядра помечены (файл, строка) по адресу:"
+
+#: wptuner-trunk\trunk/wptunershow.php:495
+msgid "the plugin code that triggered the query"
+msgstr "код плагина, вызывающий запрос"
+
+#: wptuner-trunk\trunk/wptunershow.php:497
+msgid "the actual location of the query in WP Core"
+msgstr "актуальное положение запроса в ядре WP"
+
+#: wptuner-trunk\trunk/wptunershow.php:501
+#, php-format
+msgid "%d Query Errors"
+msgstr "%d ошибок запросов"
+
+#: wptuner-trunk\trunk/wptunershow.php:503
+msgid "Index"
+msgstr "Индекс"
+
+#: wptuner-trunk\trunk/wptunershow.php:504
+msgid "Qtime<br/>(msec)"
+msgstr "Qtime<br/>(милисекунд)"
+
+#: wptuner-trunk\trunk/wptunershow.php:505
+msgid "<span style=\"float:left\">&nbsp;&nbsp;Query / Error</span>"
+msgstr "<span style=\"float:left\">&nbsp;&nbsp;Запрос / Ошибка</span>"
+
+#: wptuner-trunk\trunk/wptunershow.php:522
+msgid "Valid "
+msgstr "Корректный"
+
+#: wptuner-trunk\trunk/wptunershow.php:522
+msgid "Queries (Order: Query Time)"
+msgstr "Запросы (Порядок: время запроса)"
+
+#: wptuner-trunk\trunk/wptunershow.php:522
+msgid "slow"
+msgstr "медленный"
+
+#: wptuner-trunk\trunk/wptunershow.php:524
+#, php-format
+msgid "This list does <em>not</em> highlight invalid queries, because \"%s\" is set."
+msgstr "Этот список <em>не</em> выделяет некорректные запросы, потому что выбрано \"%s\" ."
+
+#: wptuner-trunk\trunk/wptunershow.php:552
+#: wptuner-trunk\trunk/wptunershow.php:762
+#, php-format
+msgid "This section disabled, because \"%s\" is set."
+msgstr "Эта секция отключена, потому что выбрано \"%s\"."
+
+#: wptuner-trunk\trunk/wptunershow.php:555
+#, php-format
+msgid " The <a href=\"%s\">MySQL Site</a> provides helpful hints on the details in this section."
+msgstr " <a href=\"%s\">Сайт MySQL</a> provides helpful hints on the details in this section."
+
+#: wptuner-trunk\trunk/wptunershow.php:555
+msgid "http://dev.mysql.com/doc/refman/5.0/en/using-explain.html"
+msgstr "http://dev.mysql.com/doc/refman/5.0/en/using-explain.html"
+
+#: wptuner-trunk\trunk/wptunershow.php:561
+msgid "Query"
+msgstr "Запрос"
+
+#: wptuner-trunk\trunk/wptunershow.php:566
+msgid "Error in query"
+msgstr "Ошибка в запросе"
+
+#: wptuner-trunk\trunk/wptunershow.php:597
+msgid "No queries seen??? Perhaps this version of WP is incompatible with WP TUner."
+msgstr "Не видите запросов??? Возможно, эта версия WP несовместимо с WP TUner."
+
+#: wptuner-trunk\trunk/wptunershow.php:601
+msgid "Queries triggered by plugins calling Core functions are charged to: "
+msgstr "Запросы, вызываемые плагинами вызывают функции Ядра относятся к: "
+
+#: wptuner-trunk\trunk/wptunershow.php:603
+msgid "The Plugin"
+msgstr "Плагин"
+
+#: wptuner-trunk\trunk/wptunershow.php:605
+msgid "WP Core"
+msgstr "Ядро WP"
+
+#: wptuner-trunk\trunk/wptunershow.php:607
+#, php-format
+msgid "<br/>Yellow-highlighted rows indicate slow elements (more than %.3f seconds)"
+msgstr "<br/>Строки, подсвеченные желтым показывают медленные элементы (более чем %.3f секунд)"
+
+#: wptuner-trunk\trunk/wptunershow.php:609
+msgid "<h3>Page Generation Performance (Order: Chronological)</h3>"
+msgstr "<h3>Производительность генерации страницы (Порядок: хронологический)</h3>"
+
+#: wptuner-trunk\trunk/wptunershow.php:610
+msgid "Tech note: If output buffering (OB) is not enabled at init, WP Tuner enables it so output size can be tracked."
+msgstr "Техническое примечание: Если буферизация вывода (OB) не включена при инициализации, WP Tuner включит его чтобы отслеживать размер вывода."
+
+#: wptuner-trunk\trunk/wptunershow.php:634
+#: wptuner-trunk\trunk/wptunershow.php:790
+msgid "(msec)"
+msgstr "(милисекунд)"
+
+#: wptuner-trunk\trunk/wptunershow.php:701
+msgid "<h3>Cannot display query analysis. WP Tuner is not correctly configured.</h3>"
+msgstr "<h3>Невозможно показать анализ запросов. WP Tuner настроен некорректно.</h3>"
+
+#: wptuner-trunk\trunk/wptunershow.php:708
+msgid "<h3>Plugin / Theme SQL Query Performance (Order: DB Time)</h3>"
+msgstr "<h3>Производительность SQL запросов плагина / темы (Порядок: Время DB)</h3>"
+
+#: wptuner-trunk\trunk/wptunershow.php:731
+msgid "Category"
+msgstr "Рубрика"
+
+#: wptuner-trunk\trunk/wptunershow.php:759
+msgid "<h3>SQL Table Performance  (Order: DB Time)</h3>"
+msgstr "<h3>Производительность таблиц SQL  (Порядок: Время DB)</h3>"
+
+#: wptuner-trunk\trunk/wptunershow.php:765
+msgid "Tech note: The first table in a query is recorded here; complex queries may reference many tables."
+msgstr "Техническое примечание: Первая таблица в запросе регистрируется здесь; комплексные запросы могут содержать много таблиц."
+
+#: wptuner-trunk\trunk/wptunertop.php:114
+msgid "WP Tuner (Injected, not activated)"
+msgstr "WP Tuner (Вставлен, не активирован)"
+
+#: wptuner-trunk\trunk/wptunertop.php:115
+msgid "This message only visible to site admin, and will disappear if WP Tuner plugin is active or uninstalled."
+msgstr "Это сообщение видит только админ сайта, и оно исчезнет если плагин WP Tuner активен или деинсталлирован."
+
+#~ msgid "Show WP Tuner Overview"
+#~ msgstr "Показать обзор WP Tuner"
+#~ msgid "Yes, show a one-line performance summary"
+#~ msgstr "Да, показать суммарно производительность в одной строке."
+#~ msgid ""
+#~ "Turn this on, and everything else off, to ensure WP Tuner's output is "
+#~ "minimal. (Slow queries will still be shown.)"
+#~ msgstr ""
+#~ "Включите это, и отключите все остальное, чтобы быть уверенным что вывод "
+#~ "WP Tuner будет минимальным. (медленные запросы будут также показываться.)"
+#~ msgid ""
+#~ "Render Time:%s %.3f sec (%.1f%% for queries). DB queries: %d, None "
+#~ "defective, none slower than %.3f seconds.%s"
+#~ msgstr ""
+#~ "Время рендеринга:%s %.3f секунды (%.1f%% на запросы). DB запросы: %d, Нет "
+#~ "дефектных, Нет медленнее чем %.3f секунд.%s"
+#~ msgid ""
+#~ "<br/><small>(After uninstalling, please verify that the wp-config.php "
+#~ "code has been correctly removed.)</small>"
+#~ msgstr ""
+#~ "<br/><small>(После деинсталляции, пожалуйста проверьте что код в wp-"
+#~ "config.php корректно удалился.)</small>"
+#~ msgid "WP Tuner Defect: no queries?!? Please report this."
+#~ msgstr "WP Tuner дефект: нет запросов?!? Пожалуйста сообщите об этом."
+
